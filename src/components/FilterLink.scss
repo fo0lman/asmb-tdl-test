@@ -1,0 +1,22 @@
+.root{
+	flex: 0;
+	display: table-cell;
+	padding: 6px 12px;
+
+	.link {
+		color: #999;
+		font-size: 18px;
+		transition: all .3s ease;
+		text-decoration: none;
+		cursor: pointer;
+
+		&:hover {
+			color: #666;
+		}
+	}
+
+	.active {
+		@extend  .link;
+		color: #0db3dc;
+	}
+}
