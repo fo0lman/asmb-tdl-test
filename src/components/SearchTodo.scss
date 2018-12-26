@@ -1,0 +1,21 @@
+.root {
+	float: left;
+	margin-bottom: 10px;
+	position: relative;
+
+	.icon {
+		position: absolute;
+		left: 5px;
+		top: 10px;
+		color: #757575;
+	}
+
+	.input {
+		min-width: 300px;
+		border: 0;
+		padding: 10px 0 10px 30px;
+		border-bottom: 1px solid #c3c3c3;
+		background-color: transparent;
+		outline: none;
+	}
+}
